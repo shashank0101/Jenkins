@@ -1,0 +1,26 @@
+<project><p
+ <build>
+  <plugins>
+   <plugin>  
+    <groupid>testplugin</groupid>
+    <artifactid>demoplugin</artifactid>
+    <version>value</version>
+     <executions>
+      <execution>
+        <phase>compile</phase>
+        <goals>
+         <goal>test</goal>
+          <configuration>
+           <tasks>
+                <echo>======================</echo>
+                <echo> Calling ant plugin   </echo>
+                <echo>======================</echo> 				
+           </tasks>		   
+          </configuration>
+        </goals>
+      </execution>
+     </executions>
+    </plugin>   
+  </plugins>
+ </build>
+</project>
